@@ -1,3 +1,4 @@
+pip install transformers
 from transformers import MaskFormerFeatureExtractor, MaskFormerForInstanceSegmentation
 from PIL import Image
 import requests
