@@ -1,4 +1,6 @@
 pip install transformers
+import streamlit as st
+from PIL import Image
 from transformers import MaskFormerFeatureExtractor, MaskFormerForInstanceSegmentation
 from PIL import Image
 import requests
